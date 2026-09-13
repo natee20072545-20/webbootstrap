@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+    <div class="form-container">
+ <h1 style="text-align: center;"> เพิ่มข้อมูลนักศึกษา</h1>
+    <form id="studentForm">
+        <Label>รหัสนักศีกษา</Label> <br>
+        <input type="text" id="id-std" name="id-std" > <br>
+        <label>ชื่อ-นามสกุล</label> <br>
+        <input type="text" id="fullname" name="fullname"> <br>
+        <label>คณะ</label><br>
+        <select id="deparment" name="deparment">
+            <option value="เทคโนโลยีสารสนเทศ">เทคโนโลยีสารสนเทศ</option>
+            <option value="บริหารธุรกิจ"> บริหารธุรกิจ</option>
+            <option value="บัญชี"> บัญชี</option>
+        </select>
+        <br>
+        <label>เบอร์โทรศัพท์</label><br>
+        <input type="text" id="telephone" name="telephone"> <br> <br>
+        <label> อีเมล</label>
+         <input type="email" id="telephone" name="email"> <br> <br>
+
+        <input type="submit" value=" Submit">
+        <input type="Reset" value=" Cencle">
+    </form>
+</div>
+
+<!--ตาราง-->
+<table>
+        <tr>
+          <th>รหัสนักศีกษา</th>
+          <th>ชื่อ-นามสกุล</th>
+          <th>คณะ</th>
+          <th>เบอร์โทรศัพท์</th>
+        </tr>
+        <tr>
+          <td>69708791</td>
+          <td>นที ชิดเชิด</td>
+          <td>เทคโนโลยีสารสนเทศ</td>
+          <td>0858821042</td>
+        </tr>
+        <tr>
+            <td>69708792</td>
+            <td>สมสัก รักดี</td>
+            <td>เทคโนโลยีสารสนเทศ</td>
+            <td>0858825465</td>
+        </tr>
+        <tr>
+            <td>69708793</td>
+            <td>มาตา ปิติ</td>
+            <td>เทคโนโลยีสารสนเทศ</td>
+            <td>0956421225</td>
+        </tr>
+      </table>
+
+</div>
+    
+</body>
+</html>
